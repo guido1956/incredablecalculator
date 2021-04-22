@@ -23,6 +23,16 @@ class CalculatorTest {
         int actualResult = calculator.subtrackting(number1, number2);
         assertEquals(expectedResult, actualResult, "Adding 2 positive numbers went wrong");
     }
+
+    @DisplayName("/multiply2 positive numbers")
+    @Test
+    void testSubtractingWith2PositiveNumbersEndingInPositiveNumber() {
+        Calculator calculator = new Calculator();
+        int number1 = 60, number2 = 40;
+        int expectedResult = 2400;
+        int actualResult = calculator.multiplying(number1, number2);
+        assertEquals(expectedResult, actualResult, "Adding 2 positive numbers went wrong");
+    }
 }
 
 
