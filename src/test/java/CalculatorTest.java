@@ -20,17 +20,17 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         int number1 = 60, number2 = 40;
         int expectedResult = 20;
-        int actualResult = calculator.subtrackting(number1, number2);
+        int actualResult = calculator.subtracting(number1, number2);
         assertEquals(expectedResult, actualResult, "Adding 2 positive numbers went wrong");
     }
 
     @DisplayName("/multiply2 positive numbers")
     @Test
-    void testSubtractingWith2PositiveNumbersEndingInPositiveNumber() {
+    void testMultiplyWith2PositiveNumbersEndingInPositiveNumber() {
         Calculator calculator = new Calculator();
         int number1 = 60, number2 = 40;
         int expectedResult = 2400;
-        int actualResult = calculator.multiplying(number1, number2);
+        int actualResult = calculator.muliply(60, 40);
         assertEquals(expectedResult, actualResult, "Adding 2 positive numbers went wrong");
     }
 }
