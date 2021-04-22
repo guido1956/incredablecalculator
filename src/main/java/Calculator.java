@@ -3,7 +3,7 @@ public class Calculator {
     }
 
     public int adding(int number1, int number2) {
-        return (number1 + number2 + 1);
+        return (number1 + number2);
     }
 }
 
