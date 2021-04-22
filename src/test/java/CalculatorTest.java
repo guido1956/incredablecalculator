@@ -10,7 +10,7 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         int number1 = 40, number2 = 60;
         int expectedResult = 100;
-        int actualResult = calculator.optellen(number1, number2);
+        int actualResult = calculator.add(number1, number2);
         assertEquals(expectedResult, actualResult, "Adding 2 positive numbers went wrong");
     }
 
